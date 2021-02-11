@@ -5,7 +5,7 @@ function NotificationSignup() {
   const [lname, setLname] = useState('');
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
-  const [resMessage, setResMessage] = useState('');
+  // const [resMessage, setResMessage] = useState('');
 
   const validate = (): boolean => {
     if (fname.length > 2 && lname.length > 2 && email.length > 6) {
