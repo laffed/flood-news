@@ -8,7 +8,9 @@ import NotificationSignup from '../../Components/NotificationSignup/Notification
 function Home() {
 
   return (
-    <div>Home</div>
+    <div className="home-wrapper">
+      <HomeHeader />
+    </div>
   );
 }
 

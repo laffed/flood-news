@@ -1,0 +1,52 @@
+.homeheader-wrapper {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80%;
+  margin: auto;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 325px;
+  margin: 0 auto 1.5rem;
+}
+
+.title {
+  margin: 0 auto 3rem;
+  width: 95%;
+}
+
+.title h1 img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title h1.fnnDesktop {
+  display: none;
+}
+
+.title h1.fnnDesktop img {
+  max-width: 750px;
+}
+
+.title h1.fnnMobile {
+  display: block;
+}
+
+.title h1.fnnMobile img {
+  max-width: 400px;
+}
+
+h2.sectionTitle {
+  font-weight: 700;
+  color: #415064;
+}
+
+.blueBold {
+  font-weight: 700;
+  color: #415064;
+}

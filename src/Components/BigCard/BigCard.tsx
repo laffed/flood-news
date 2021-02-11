@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {ReactNode} from 'react'
 
+type BigCardProps = {
+  children: ReactNode
+}
 
-function BigCard({children}) {
+function BigCard({children}: BigCardProps) {
 
   return (
     <div className="bigcard-wrapper">
