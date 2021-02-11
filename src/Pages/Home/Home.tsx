@@ -10,6 +10,11 @@ function Home() {
   return (
     <div className="home-wrapper">
       <HomeHeader />
+      <NotificationSignup />
+      <div className="waveWrap">
+        <div className="wave"></div>
+        <div className="wave"></div>
+      </div>
     </div>
   );
 }
