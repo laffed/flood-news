@@ -255,7 +255,7 @@ header .container {
 }
 
 /* --------------- Scheduling -- */
-#scheduling .col {
+.col {
   background: rgba(255, 255, 255, .4);
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, .15);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .15);
