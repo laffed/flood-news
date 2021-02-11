@@ -1,3 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .App,
 body {
   min-height: 100vh;
@@ -514,19 +520,19 @@ header .container {
 }
 
 /* --------------- Footer -- */
-.footer-wrapper {
+footer {
   position: relative;
   background: #415064;
   padding: 8px 0;
 }
 
-.footer-wrapper p,
-.footer-wrapper a {
+footer p,
+footer a {
   color: #fff;
   margin: auto;
 }
 
-.footer-wrapper .containerLarge.dFlex {
+footer .containerLarge.dFlex {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   -webkit-box-align: center;
