@@ -33,13 +33,14 @@ function ScheduleCardContent() {
   return (
     <div className="schedulecardcontent-wrapper">
       {data.map((obj) => (
-        <Accordion>
+        <Accordion className='accordion-wrapper'>
           <AccordionSummary
             expandIcon={<FontAwesomeIcon icon={faArrowAltCircleDown} />}
+            className='accordion-summary'
           >
             <span>{obj.date}</span>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className='accordion-details'>
             <div className="classInfo">
               <div className="author">
                 <p className="blueBold">${obj.name}</p>

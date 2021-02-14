@@ -268,15 +268,15 @@ header .container {
   max-width: 100%;
 }
 
-#accordion {
+.schedulecardcontent-wrapper {
   padding: 1rem 1rem 0;
 }
 
-.session:not(:last-child) {
+.schedulecardcontent-wrapper:not(:last-child) {
   margin-bottom: .25rem;
 }
 
-.date {
+/* .accordion-wrapper {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -286,24 +286,16 @@ header .container {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   color: #fff;
-  padding: .35rem 2rem;
-  background: #415064;
-}
-
-.date i {
-  -webkit-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-}
+  background-color: #415064;
+} */
 
 .session.active .date {
   background: #4C6484;
 }
 
-.session.active .date i {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+.accordion-summary {
+  color: #fff;
+  background: #4C6484;
 }
 
 .session .classInfo {
